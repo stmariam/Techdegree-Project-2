@@ -1,0 +1,102 @@
+
+/* === Web Font === */
+
+font-family: 'Roboto', sans-serif;
+
+/* === Base Style === */
+
+* {
+box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+/* === Base Layout Style === */
+
+.name {
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+.portfolio,
+.contact {
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+img,
+.container {
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Navigation */
+
+.main-nav a {
+  font-weight: bold;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.footer-nav a {
+  display: none;
+}
+
+.back-to-top {
+  text-transform: uppercase;
+}
+
+.back-to-top,
+.footer-name {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+/* Layout Container */
+
+
+
+/* === Media Queries === */
+
+/* tablet */
+@media (min-width: 768px) {
+
+
+
+
+
+  .clearfix::after {
+     content: "";
+     display: table;
+     clear: both;
+    }
+}
+
+
+
+/* desktop */
+@media (min-width: 1024px) {
+
+
+
+  .clearfix::after {
+     content: "";
+     display: table;
+     clear: both;
+    }
+}
