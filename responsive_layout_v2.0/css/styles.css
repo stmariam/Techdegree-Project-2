@@ -12,6 +12,8 @@ box-sizing: border-box;
 a {
   text-decoration: none;
   color: black;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -22,35 +24,108 @@ a {
   font-size: 2.5em;
 }
 
-.portfolio,
-.contact {
+.portfolio {
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.4em;
   text-transform: uppercase;
   text-align: center;
+  margin: 3em 0;
 }
 
 img {
-  width: 100%;
+  max-width: 95%;
+  padding: 1em 0;
 }
 
-img,
+ .profile-image {
+   max-width: 70%;
+}
+
+.col,
+.main-contact {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+
+}
+
+.main-contact {
+  padding-top: 2em;
+  margin: 9em 0 0;
+  border-bottom: 1px solid	#C0C0C0;
+}
+
+.contact-intro {
+  font-size: 1.1em;
+}
+
 .container {
+  text-align: center;
+}
+
+.main-header,
+.main-intro {
   padding-left: 1em;
   padding-right: 1em;
-  text-align: center;
+  background: #F5F5F5;
+}
+
+.main-intro {
+  padding-top: 2em;
+}
+
+.main-header {
+  padding: 0.5em 0;
 }
 
 address {
   font-style: normal;
 }
 
+.intro {
+  margin: 1em 0 1.5em;
+  padding-bottom: 1.2em;
+  font-family: normal;
+  font-size: 1em;
+}
+
+.main-contact,
+.main-footer {
+  background: #F5F5F5;
+}
+
+.main-footer {
+  padding: 1em .7em;
+}
+
 /* Navigation */
 
-.main-nav a {
+.main-name,
+.main-nav {
+  text-align: center;
+}
+.main-nav li {
+  background: #fff;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-transform: uppercase;
+  padding: 8px 16px;
+  margin: 0 .6em .5em;
+  display: block;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* hover link */
+a:hover {
+  color: red;
+}
+
+/* active link */
+a:active {
+  color: pink;
 }
 
 .footer-nav a {
@@ -64,7 +139,17 @@ address {
 .back-to-top,
 .footer-name {
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: 1em;
+}
+
+/* Float */
+
+.back-to-top {
+  float: right;
+}
+
+.footer-name {
+  float: left;
 }
 
 /* Layout Container */
