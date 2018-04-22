@@ -20,6 +20,10 @@ address {
   font-style: normal;
 }
 
+.container {
+  text-align: center;
+}
+
 /* === Base Layout Style === */
 
 .name {
@@ -60,10 +64,6 @@ img {
 
 .contact-intro {
   font-size: 1.1em;
-}
-
-.container {
-  text-align: center;
 }
 
 .main-header,
@@ -137,6 +137,8 @@ a:active {
 .footer-name {
   font-weight: bold;
   font-size: 1em;
+  width: 45%;
+  text-align: center;
 }
 
 /* Float */
@@ -147,12 +149,6 @@ a:active {
 
 .footer-name {
   float: left;
-}
-
-.back-to-top,
-.footer-name {
-  width: 45%;
-  text-align: center;
 }
 
 /* Float Clearfix */
@@ -167,6 +163,32 @@ a:active {
 
 /* tablet */
 @media (min-width: 768px) {
+
+  .main-header {
+    padding: 0.5em 0 2em;
+  }
+  .main-nav li {
+    display: inline;
+    background: #F5F5F5;
+  }
+
+  .profile-image {
+    float: right;
+    width: 35%;
+
+  }
+
+  .intro {
+    float: left;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 2em 1em 0;
+    width: 55%;
+  }
+
+  .main-intro {
+    background: none;
+  }
 
 
 
