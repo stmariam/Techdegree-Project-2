@@ -1,4 +1,6 @@
-/* === Base Style === */
+/* ===============
+Base Style
+=============== */
 
 * {
 box-sizing: border-box;
@@ -19,15 +21,17 @@ address {
   text-align: center;
 }
 
-.main-name {
-  font-family: 'Do Hyeon', sans-serif;
-}
-
-/* === Base Layout Style === */
+/* =================
+Base Layout Style
+=================== */
 
 .name {
   font-weight: bold;
   font-size: 2.5em;
+}
+
+.main-name {
+  font-family: 'Do Hyeon', sans-serif;
 }
 
 .portfolio {
@@ -93,7 +97,7 @@ img {
   padding-top: 2em;
 }
 
-/* Navigation */
+/* === Navigation === */
 
 .main-name,
 .main-nav {
@@ -110,17 +114,17 @@ img {
   display: block;
 }
 
-/* unvisited link */
+/* === unvisited link === */
 a:link {
   color: black;
 }
 
-/* hover link */
+/* === hover link === */
 a:hover {
   color: red;
 }
 
-/* active link */
+/* === active link === */
 a:active {
   color: pink;
 }
@@ -143,7 +147,7 @@ a:active {
   font-family: 'Do Hyeon', sans-serif;
 }
 
-/* Float */
+/* === Float === */
 
 .back-to-top {
   float: right;
@@ -153,7 +157,7 @@ a:active {
   float: left;
 }
 
-/* Float Clearfix */
+/* === Float Clearfix === */
 
 .clearfix::after {
    content: "";
@@ -161,9 +165,12 @@ a:active {
    clear: both;
   }
 
-/* === Media Queries === */
+/* ==============
+Media Queries
+=============== */
 
-/* tablet */
+/* === tablet === */
+
 @media (min-width: 768px) {
 
   .main-header {
@@ -226,7 +233,8 @@ a:active {
 }
 
 
-/* desktop */
+/* === desktop === */
+
 @media (min-width: 1024px) {
 
   .main-header,
@@ -256,9 +264,6 @@ a:active {
     float: left;
     width: 30%;
     margin-left: 1.7em;
-  }
-
-  .container {
   }
 
   .main-contact {
