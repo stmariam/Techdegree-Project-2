@@ -78,6 +78,7 @@ img {
 
 .main-intro {
   padding-top: 2em;
+  text-align:center;
 }
 
 .main-header {
@@ -193,10 +194,6 @@ Media Queries
     width: 55%;
   }
 
-  .main-intro {
-    background: none;
-  }
-
   .container img {
     max-width: 102% ;
   }
@@ -236,11 +233,6 @@ Media Queries
 /* === desktop === */
 
 @media (min-width: 1024px) {
-
-  .main-header,
-  .main-nav li {
-    background: none;
-  }
 
   .main-name {
     float: left;
