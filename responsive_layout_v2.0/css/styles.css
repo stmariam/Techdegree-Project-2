@@ -47,7 +47,8 @@ img {
   padding: 1em 0;
 }
 
-.profile-image {
+.profile-image,
+.skills-image {
    max-width: 100%;
 }
 
@@ -76,7 +77,13 @@ img {
   background: #F5F5F5;
 }
 
-.main-intro {
+.skills {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.main-intro,
+.skills {
   padding-top: 2em;
   text-align:center;
 }
@@ -132,6 +139,7 @@ a:active {
 
 .footer-home,
 .footer-portfolio,
+.footer-skills,
 .footer-contact {
   display: none;
 }
@@ -182,9 +190,10 @@ Media Queries
     background: #F5F5F5;
   }
 
-  .profile-image {
+  .profile-image,
+  .skills-image {
     float: right;
-    width: 35%;
+    width: 38%;
   }
 
   .intro {
@@ -218,6 +227,7 @@ Media Queries
 
   .footer-home,
   .footer-portfolio,
+  .footer-skills,
   .footer-contact {
     display: unset;
     float: right;
